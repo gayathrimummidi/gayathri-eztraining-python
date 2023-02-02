@@ -1,0 +1,155 @@
+LIST
+list is the advanced one used in python.Here we can store variables of different daytatypes.
+list is ordered.
+L=[1,4,9.7,"honey"]
+>>> L
+[1, 4, 9.7, 'honey']
+>>> L[2]
+9.7
+>>> L[1:2]
+[4]
+ >>>L[0:]
+[1, 4, 9.7, 'honey']
+>>> L[::-1]
+['honey', 9.7, 4, 1]
+>>> L[:2]
+[1, 4]
+>>> L[-2]
+9.7
+>>> L[::-3]
+['honey', 1]
+>>> type(L)
+<class 'list'>
+append()-it adds an ele at the end of list
+extend()-more than onevele it adds
+insert()-it inserts an item to a defined index
+remove()-it removes an item from list
+pop()-it removes nd returns at the given index
+clear()-it clears all the items
+index()-it returns index
+count()-occ of each item in the list
+sort()- it sorts in ascending order
+reverse()-it reverses the list
+copy()-shallow copy of the list
+>>> list=[1,3,5,6,8,3,3,6,6,]
+>>> len(list)
+9
+>>> list.append(100)
+>>> list1=[1,1,1,2,4,5,5]
+>>> len(list1)
+7
+>>> list1.append(6)
+>>> list1
+[1, 1, 1, 2, 4, 5, 5, 6]
+>>> list1.remove(2)
+>>> list1
+[1, 1, 1, 4, 5, 5, 6]
+>>> list1.index(6)
+6
+>>> list1.extend([43,67])
+>>> list1
+[1, 1, 1, 4, 5, 5, 6, 43, 67]
+>>> list1.count(1)
+3
+>>> list1.pop(5)
+5
+>>> list1.reverse()
+>>> list1
+[67, 43, 6, 5, 4, 1, 1, 1]
+>>> list1.copy()
+[67, 43, 6, 5, 4, 1, 1, 1]
+
+
+SET
+set is used to store multiple items in a single variable nd it is unordered
+
+SET OPERATIONS
+
+>>> s={1,2,3,4,5}
+>>> s
+{1, 2, 3, 4, 5}
+>>> s.add(6)
+>>> s
+{1, 2, 3, 4, 5, 6}
+>>> s.update([6,7])
+>>> s
+{1, 2, 3, 4, 5, 6, 7}
+>>> s.discard(3)
+>>> s
+{1, 2, 4, 5, 6, 7}
+>>> s.remove(4)
+>>> s
+{1, 2, 5, 6, 7}
+
+>>> s1={1,4,5}
+>>> s2={7,3,9,1}
+>>> s1|s2--- union
+{1, 3, 4, 5, 7, 9}
+>>> s1&s2----intersection
+{1}
+>>> s1-s2------difference
+{4, 5}
+>>> s2-s1
+{9, 3, 7}
+>>> s1.issuperset(s2)--- it tells which set is bigger that is number of element it contains
+False
+
+SYMMETRIC DIFFERENCE
+>>> s1={1,2,3,4,5,10}
+>>> s2={4,1,3,8,2}
+>>> s1^s2
+{5, 8, 10}
+>>> print(s1.symmetric_difference(s2))
+{5, 8, 10}
+
+TUPLE
+
+elements can in given normal()
+methods---count nd index
+it is ordered again
+
+>>> t=(5,9,2,0,1.2,"honey")
+>>> type(t)
+<class 'tuple'>
+>>> t.count(9)
+1
+>>> t.index(1.2)
+4
+
+DICTIONARY
+no duplication, keys should be unique
+dictionary contains element with 2 units keys nd values
+
+>>> d={1:"one",2:"two"}
+>>> d
+{1: 'one', 2: 'two'}
+>>> type(d)
+<class 'dict'>
+>>> d.keys()
+dict_keys([1, 2])
+>>> d.values()
+dict_values(['one', 'two'])
+>>> d.items()
+dict_items([(1, 'one'), (2, 'two')])
+
+>>> d={'gayathri':'mummy','daddy':'sister'}
+>>> type(d)
+<class 'dict'>
+>>> d.keys()
+dict_keys(['gayathri', 'daddy'])
+>>> d.values()
+dict_values(['mummy', 'sister'])
+>>> d['gayathri']
+'mummy'
+>>> d.get('gaaythri')
+>>> 'mummy'
+'mummy'
+
+>>> l=['hi','hello']
+>>> dict.fromkeys(l)
+{'hi': None, 'hello': None}
+>>> dict.fromkeys(l,50)
+{'hi': 50, 'hello': 50}
+
+
+
