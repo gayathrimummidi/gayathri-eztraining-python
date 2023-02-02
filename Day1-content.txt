@@ -1,0 +1,25 @@
+python is famous in the market and it is called as "language of future".it supports current technologies and upcoming 
+technologies.
+
+MEDIUM
+IDLE(integrated development tearning environment)
+
+DATA TYPES
+numeric----int,float,complex
+boolean-----true false
+sequence data types
+string,list,tuple,dictionary
+
+TYPE CONVERSION
+converting one datatype to another data type.
+
+OPERATOR PRECEDENCE AND ASSOCIATIVITY LAW
+every operator has its own priority,we can use BODMAS rule.if there is same priority operators present in 
+the expression evaluation happens left to right except one that is assignment operator which evaluates right
+to left.
+
+INPUT STATEMENT IN PYTHON IS
+n=input("enter")
+print(n)
+type(n)
+
