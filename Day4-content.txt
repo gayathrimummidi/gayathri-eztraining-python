@@ -1,0 +1,85 @@
+STRINGS
+
+you can give string either in single quote or double quotes
+>>> n="hi i'am "gayathri""
+SyntaxError: invalid syntax
+>>> n="hi i'am"
+>>> n
+"hi i'am"
+>>> nm="hi i'am'
+SyntaxError: EOL while scanning string literal
+>>> m='hi i\'am'
+>>> m
+"hi i'am"
+>>> n='hi i am "gayathri"'
+>>> n
+'hi i am "gayathri"'
+
+concatination-------s1+s2
+repetition----------s1=s2
+
+>>> s=("apple")
+>>> s
+'apple'
+>>> s.islower()
+True
+>>> s.isupper()
+False
+>>> min(s)
+'a'
+>>> max(s)
+'p'
+>>> len(s)
+5
+>>> s.rfind('a')
+0
+mutable and immutable
+immutable----tuple,int,float,string,bool
+can be changed after creation
+mutable--can be changeable--example:list,set,dictionary
+
+>>> s=("apple")
+>>> s
+'apple'
+>>> s.islower()
+True
+>>> s.isupper()
+False
+>>> min(s)
+'a'
+>>> max(s)
+'p'
+>>> len(s)
+5
+>>> s.rfind('a')
+0
+>>> x=20
+>>> x
+20
+>>> x=30
+>>> x
+30
+>>> id(x)
+1393805904
+>>> r=200
+>>> r
+200
+>>> id(r)
+1393811344
+>>> r=r+r
+>>> r
+400
+>>> id(r)
+2103860230416
+>>> l=[2,3,4]
+>>> l
+[2, 3, 4]
+>>> l.append(45)
+>>> l
+[2, 3, 4, 45]
+>>> id(l)
+2103860600008
+
+
+s.upper()
+s.lower()or s.casefold()
