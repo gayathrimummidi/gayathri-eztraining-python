@@ -1,0 +1,20 @@
+FUNCTIONS
+
+classifications
+pre defined functions
+user defined functions
+
+for code reusability we use functions
+let say we want to use a particular concept multiple times in our program instead of writing the same code
+multiple times we can write it once include that inside a function and can call the function where ever we
+need it.keyword to define function is def.
+
+TYPES
+functions without argument without return value
+without argument with return value
+with argument with return value
+with argument without return value
+
+RECURSIVE FUNCTION OR RECURSION METHOD
+a function which calls  itself  is called recursive function
+ 
